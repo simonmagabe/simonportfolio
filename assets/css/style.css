@@ -1,0 +1,273 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    color: hsl(0deg,100%,100%);
+    background-color: hsl(360deg,0%,20%);
+    font-family: sans-serif;
+  }
+  
+  a {
+    color: hsl(0deg,100%,100%);
+  }
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    border-bottom: .1em solid hsl(210deg,45%,60%);
+  }
+  
+  nav.nav .logo {
+    flex: 1;
+  }
+  
+  nav.nav .navbar {
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+  }
+  
+  .navbar li{
+    list-style: none;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    font-size: 2em;
+    border-bottom: .1em solid red;
+  }
+  
+  section {
+    width: 90vw;
+    border: .1em solid hsl(150deg,40%,80%);
+    border-radius: 0.4em;
+    margin: 2em auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 13em 1fr;
+    gap: 1em;
+    font-size: 1.4em;
+    background-color: hsl(360deg,0%,10%);
+    padding: 1em;
+  }
+  
+  #home {
+    border: 1px solid teal;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+  
+  #header {
+    width: 90vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 1;
+    margin: auto;
+  }
+  
+  #header #title {
+    font-size: 4em;
+    letter-spacing: .2em;
+    padding: .1em;
+  }
+  
+  #biography {
+    width: 100%;
+    padding: 1em;
+    letter-spacing: .2em;
+    border: 1px solid yellow;
+    margin: .5em auto;
+    font-size: 2.5em;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #detail {
+   padding: 1em;
+   letter-spacing: 0.2em;
+   line-height: 1.2;
+   text-align: center;
+  }
+  
+  #banner {
+    width: 90vw;
+    padding: 2em;
+    display: grid;
+    justify-items: center;
+    margin: 3em auto;
+  }
+  
+  #banner img {
+    width: 30em;
+    outline: none;
+    border-radius: 50%;
+  }
+  
+  button.learn-more {
+    
+  }
+  
+  button.learn-more span {
+    font-size: 3em;
+    padding: 0.4em;
+  }
+  
+  button.learn-more i {
+    
+  }
+  
+  #learn-more a span#more-btn {
+    
+  }
+  
+  #learn-more #down-arrow {
+    
+  }
+  
+  #learn-more #down-arrow .fas {
+    
+  }
+  
+  #about {
+    display: grid;
+    grid-auto-flow: column;
+  }
+  
+  .profile img{
+    width: 10em;
+    border-radius: 50%;
+  }
+  
+  #sub-title {
+    
+  }
+  
+  #sub-title h2 span {
+  
+  }
+  
+  #sub-title span {
+    border-bottom: .3em solid white;
+    margin-top: 1em;
+    font-size: 1.4em;
+  }
+  
+  #left-banner {
+    margin: 1em auto;
+    border: .1em solid red;
+    padding: 1em;
+  }
+  
+  #left-banner span {
+    
+  }
+  
+  #left-banner span i {
+    padding: 0em .4em;
+  }
+  
+  #right-banner {
+    border: .1em solid pink;
+    margin: 1em auto;
+    padding: 1em 1em;
+  }
+  
+  #right-banner #description {
+    margin-top: 20px;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    padding: 1em 0em;
+  }
+  
+  #skill {
+    border-bottom: .2em solid green;
+  }
+  
+  #course,
+  #role {
+    margin: 1em;
+    font-size: 1.6em;
+  }
+  
+  #technologies {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 0.4em;
+  }
+  
+  #tech {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    flex-wrap: wrap;
+  }
+  
+  #tech-item {
+    margin: 1em;
+    padding: 1em;
+    border: .2em solid purple;
+    list-style: none;
+    font-size: 1em;
+  }
+  
+  #projects {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  
+  #projects h2 span {
+    padding: 1.2em;
+    font-size: 1em;
+  }
+  
+  .project-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #project-item {
+    border: 1px solid blue;
+    margin: 1em;
+  }
+  
+  .contact-me {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 2em 1em 4em 1em;
+  }
+  
+  .contact-me h4 {
+    width: 90%;
+    padding: 0.5em;
+    font-size: 1.6em;
+  }
+  
+  #form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: .2em solid green;
+    box-sizing: border-box;
+    padding: 2em;
+    font-size: 1.4em;
+  }
+  
+  #form
